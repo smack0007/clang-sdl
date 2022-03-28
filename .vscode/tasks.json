@@ -13,6 +13,19 @@
         "cwd": "${workspaceFolder}"
       },
       "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "Run Game",
+      "group": {
+        "kind": "none",
+        "isDefault": true
+      },
+      "type": "shell",
+      "command": "Game.exe",
+      "options": {
+        "cwd": "${workspaceFolder}/bin"
+      },
+      "problemMatcher": []
     }
   ]
 }

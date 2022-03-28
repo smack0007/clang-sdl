@@ -28,7 +28,7 @@ int main(int argc, char* args[])
 		return EXIT_FAILURE;
 	}
 
-	SDL_Surface* surface = SDL_GetWindowSurface( window );
+	SDL_Surface* surface = SDL_GetWindowSurface(window);
 
 	SDL_GL_SetAttribute(SDL_GL_CONTEXT_MAJOR_VERSION, 4);
 	SDL_GL_SetAttribute(SDL_GL_CONTEXT_MINOR_VERSION, 1);
