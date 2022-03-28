@@ -1,9 +1,6 @@
-#include <SDL.h>
 #include <stdbool.h>
-#include <stdint.h>
 #include <stdio.h>
-#include <stdlib.h>
-#include <windows.h>
+#include <SDL.h>
 
 #define GL_GLEXT_PROTOTYPES
 #include <GL/glcorearb.h>
